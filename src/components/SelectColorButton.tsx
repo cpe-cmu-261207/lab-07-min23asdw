@@ -13,6 +13,7 @@ const SelectColorButton = ({ color }: SelectColorButtonProps) => {
   return (
     <div className={`${computeRingSize()} rounded-md border-black border-2 w-12 h-12 cursor-pointer`}
       style={{ backgroundColor: color }}
+      onClick={() = > { setcolo }}
     >
     </div>
   )
